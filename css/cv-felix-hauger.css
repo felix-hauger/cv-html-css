@@ -87,11 +87,15 @@ main {
 
 main > div:nth-child(1) {
     order: 2;
+    padding-right: 6em;
+    padding-left: 3em;
 }
 
 main > div:nth-child(2) {
     background-color: #bbb;
     width: 35%;
+    padding-left: 6em;
+    padding-right: 3em;
 }
 
 main section {
@@ -114,32 +118,46 @@ section > ul {
     font-size: 1em;
 }
 
+#skills .sub_section li{
+    display: flex;
+    align-items: center;
+}
+
 #skills .sub_section li > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: calc(100% - 2em); */
+    width: calc(100% - 2em);
 }
 
 .skills_container {
     background-color: #ddd;
     display: inline-block;
-    width: 70%;
+    width: 85%;
 }
 
 
-.skills {
+#skills .skills {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-#skills .html {
-    width: 90%;
-    background-color: red;
+    padding-right: 5px;
+    text-align: right;
+    color: #ddd;
+    font-weight: 600;
 }
 
 #skills img {
     width: 2em;
+}
+
+#skills .html {
+    width: 90%;
+    background-color: #EF642A;
+}
+
+#skills .css {
+    width: 80%;
+    background-color: #3B9CD9;
 }
 
 footer {
