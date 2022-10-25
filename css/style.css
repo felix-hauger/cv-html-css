@@ -6,20 +6,32 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    font-family: Montserrat/*, sans-serif*/;
+    /* padding: 0; */
+    font-family: Montserrat, sans-serif;
+}
+
+h1, button {
+    cursor: pointer;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #24252a;
+    padding: 30px 10%;
 }
 
+header button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
 
-
-h1 {
-    cursor: pointer;
+header button:hover {
+    color: #ddd;
 }
 
 h1, .nav_links li, .nav_links a, .nav_links button {
@@ -34,7 +46,6 @@ nav {
 }
 
 li {
-    list-style-type: none;
 }
 /* 
 .nav_links {
@@ -42,9 +53,9 @@ li {
 } */
 
 .nav_links li {
+    list-style-type: none;
     display: inline-block;
     padding: 0px 20px;
-
 }
 
 .nav_links li a {
@@ -53,4 +64,9 @@ li {
 
 .nav_links li a:hover {
     color: #0088a9;
+    background-color: #ddd;
 }
+
+main {
+        display: flex;
+    }
