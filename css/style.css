@@ -3,6 +3,11 @@
     src: url(../font/Montserrat-Medium.otf);
 }
 
+@font-face {
+    font-family: Ubuntu-mono-regular;
+    src: url(../font/UbuntuMono-R.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -80,11 +85,11 @@ main {
 
 }
 
-main div:nth-child(1) {
+main > div:nth-child(1) {
     order: 2;
 }
 
-main div:nth-child(2) {
+main > div:nth-child(2) {
     background-color: #bbb;
     width: 35%;
 }
@@ -94,17 +99,47 @@ main section {
 }
 
 section > ul {
-    width: 60%;
+    /* width: 60%; */
     margin-left: auto;
     margin-right: auto;
 }
 
 .sub_section li {
     padding: 8px 0;
+    font-family: Ubuntu-mono-regular;
 }
 
 .sub_section li::before {
     content: "> ";
+    font-size: 1em;
+}
+
+#skills .sub_section li > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: calc(100% - 2em); */
+}
+
+.skills_container {
+    background-color: #ddd;
+    display: inline-block;
+    width: 70%;
+}
+
+
+.skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#skills .html {
+    width: 90%;
+    background-color: red;
+}
+
+#skills img {
+    width: 2em;
 }
 
 footer {
