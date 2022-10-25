@@ -62,6 +62,7 @@ a {
 }
 
 nav {
+    height: 100%;
 }
 
 li {
@@ -75,6 +76,8 @@ li {
 }
 
 .nav_links li a {
+    /* display: inline-block;
+    height: 100%; */
     transition: all 0.3s ease 0s;
 }
 
@@ -85,13 +88,13 @@ li {
 
 main {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 main > div:nth-child(1) {
     order: 2;
-    padding-right: 6em;
-    padding-left: 3em;
+    /* padding-right: 12em; */
+    padding-left: 8em;
 }
 
 main > div:nth-child(2) {
@@ -114,6 +117,10 @@ section > ul {
 .sub_section li {
     padding: 8px 0;
     font-family: Ubuntu-mono-regular;
+}
+
+main > div:nth-child(1) {
+    width: 700px;
 }
 
 main > div:first-child .sub_section li::before {
