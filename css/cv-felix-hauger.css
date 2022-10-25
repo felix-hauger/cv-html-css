@@ -63,6 +63,11 @@ a {
     text-decoration: none;
 }
 
+/* TO REMOVE SPACES BETWEEN INLINE BLOCKS (0 SIZE FOR SPACES) */
+nav {
+    font-size: 0;
+}
+
 nav, nav * {
     height: 100%;
 }
@@ -81,6 +86,7 @@ li {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 140px;
+    font-size: 18px;
     font-weight: 800;
     transition: all 0.3s ease 0s;
 }
