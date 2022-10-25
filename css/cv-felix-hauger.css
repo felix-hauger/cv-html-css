@@ -53,6 +53,10 @@ h3 {
     margin-bottom: 15px;
 }
 
+h4 {
+    margin-bottom: 12px;
+}
+
 a {
     text-decoration: none;
 }
@@ -93,8 +97,8 @@ main > div:nth-child(1) {
 main > div:nth-child(2) {
     background-color: #bbb;
     width: 35%;
-    padding-left: 6em;
-    padding-right: 3em;
+    padding-left: 3em;
+    padding-right: 1em;
 }
 
 main section {
@@ -146,7 +150,7 @@ main > div:first-child .sub_section li::before {
 }
 
 .img_box {
-    width: 40px;
+    width: 70px;
     height: 40px;
 }
 
@@ -169,7 +173,24 @@ main > div:first-child .sub_section li::before {
 
 #skills .js {
     width: 70%;
-    background-color: #b1a13b;
+    background-color: #cfba1b;
+}
+
+#skills .php {
+    width: 60%;
+    background-color: #777BB3;
+}
+
+#skills .mysql {
+    width: 65%;
+    background-color: #00618A;
+    /* color: ; */
+}
+
+#skills .python {
+    width: 70%;
+    background-color: #3873A3;
+    /* color: #FFE05D; */
 }
 
 /* #html::before {
