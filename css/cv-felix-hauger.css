@@ -96,7 +96,8 @@ main {
 
 main > div:nth-child(1) {
     order: 2;
-    padding-left: 8em;
+    /* padding-left: 8em; */
+    margin: 0 auto;
 }
 
 main > div:nth-child(2) {
