@@ -81,6 +81,7 @@ li {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 140px;
+    font-weight: 800;
     transition: all 0.3s ease 0s;
 }
 
@@ -157,6 +158,8 @@ main > div:first-child .sub_section li::before {
     font-weight: 600;
 }
 
+/*  img_box class used to center images */
+
 .img_box {
     width: 70px;
     height: 40px;
@@ -168,6 +171,8 @@ main > div:first-child .sub_section li::before {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*  LANGAGES  */
 
 #skills .html {
     width: 90%;
@@ -199,6 +204,12 @@ main > div:first-child .sub_section li::before {
     width: 70%;
     background-color: #3873A3;
     /* color: #FFE05D; */
+}
+
+/* FRAMEWORKS ET LIBRAIRIES */
+
+#skills .jquery {
+
 }
 
 /* #html::before {
