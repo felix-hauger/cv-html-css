@@ -8,6 +8,8 @@
     src: url(../font/UbuntuMono-R.ttf);
 }
 
+/* GENERICS */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,6 +30,16 @@ header {
     background-color: #24252a;
     height: 140px;
 }
+
+/*  img_box class used to center images */
+
+.img_box img {
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 header button {
     padding: 9px 25px;
@@ -137,6 +149,12 @@ main > div:first-child .sub_section li::before {
     font-size: 1em;
 }
 
+/**** PROJECTS ******/
+
+#projects .img_box {
+    height: 120px;
+}
+
 #skills .sub_section li{
     display: flex;
     align-items: center;
@@ -165,21 +183,13 @@ main > div:first-child .sub_section li::before {
     font-weight: 600;
 }
 
-/*  img_box class used to center images */
 
-.img_box {
+/***********  SKILLS  ************/
+
+#skills .img_box {
     width: 70px;
     height: 40px;
 }
-
-.img_box img {
-    display: block;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*  LANGAGES  */
 
 #skills .html {
     width: 90%;
