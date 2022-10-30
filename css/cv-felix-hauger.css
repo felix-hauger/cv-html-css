@@ -138,6 +138,7 @@ section > ul {
 .sub_section li {
     padding: 8px 0;
     font-family: Ubuntu-mono-regular;
+    font-size: 18px;
 }
 
 main > div:nth-child(1) {
