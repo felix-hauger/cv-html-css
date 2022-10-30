@@ -216,7 +216,8 @@ main > div:first-child .sub_section li::before {
 /* FRAMEWORKS ET LIBRAIRIES */
 
 #skills .jquery {
-
+    width: 65%;
+    background-color: #387fb0;
 }
 
 /* #html::before {
