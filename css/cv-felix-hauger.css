@@ -173,7 +173,7 @@ main > div:first-child .sub_section li::before {
 .skills_container {
     background-color: #ddd;
     display: inline-block;
-    width: 85%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -264,6 +264,14 @@ main > div:first-child .sub_section li::before {
     width: 65%;
     background-color: #a4dbea;
     color: #525353;
+}
+
+/* OUTILS */
+
+#skills .git {
+    width: 60%;
+    background-color: #f05133;
+    color: #413000;
 }
 
 /* #html::before {
