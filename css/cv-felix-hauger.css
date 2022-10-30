@@ -75,9 +75,11 @@ a {
     text-decoration: none;
 }
 
-/* TO REMOVE SPACES BETWEEN INLINE BLOCKS (0 SIZE FOR SPACES) */
+
+/********** NAVBAR **********/
+
 nav {
-    font-size: 0;
+    font-size: 0; /* TO REMOVE SPACES BETWEEN INLINE BLOCKS (0 SIZE FOR SPACES) */
 }
 
 nav, nav * {
@@ -206,7 +208,8 @@ main > div:first-child .sub_section li::before {
 
 #skills .js {
     width: 70%;
-    background-color: #cfba1b;
+    background-color: #f7df1e;
+    color: #000;
 }
 
 #skills .php {
@@ -231,6 +234,36 @@ main > div:first-child .sub_section li::before {
 #skills .jquery {
     width: 65%;
     background-color: #387fb0;
+}
+
+#skills .dustjs {
+    width: 50%;
+    background-color: #fff;
+    color: #333;
+}
+
+#skills .symfony {
+    width: 40%;
+    background-color: #000;
+}
+
+#skills .bootstrap {
+    width: 75%;
+    background-color: #7010f4;
+}
+
+
+/* CMS */
+
+#skills .wordpress {
+    width: 75%;
+    background-color: #464646;
+}
+
+#skills .prestashop {
+    width: 65%;
+    background-color: #a4dbea;
+    color: #525353;
 }
 
 /* #html::before {
