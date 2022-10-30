@@ -172,16 +172,18 @@ main > div:first-child .sub_section li::before {
     background-color: #ddd;
     display: inline-block;
     width: 85%;
+    border-radius: 10px;
 }
 
 
 #skills .skills {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 5px;
     text-align: right;
     color: #ddd;
     font-weight: 600;
+    border-radius: 10px;
 }
 
 
