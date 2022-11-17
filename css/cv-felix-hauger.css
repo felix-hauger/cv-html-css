@@ -154,9 +154,13 @@ main > div:first-child .sub_section li::before {
 
 /**** PROJECTS ******/
 
-#projects .img_box {
-    height: 120px;
+#projects .projects_table td {
+    border: 1px solid black;
 }
+
+
+/* SKILLS */
+
 
 #skills .sub_section li{
     display: flex;
