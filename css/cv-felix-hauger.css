@@ -154,10 +154,34 @@ main > div:first-child .sub_section li::before {
 
 /**** PROJECTS ******/
 
-#projects .projects_table td {
+/* #projects .img_box {
+    height: 120px;
+} */
+
+#projects .projects_table, #projects .projects_table th, #projects .projects_table td {
     border: 1px solid black;
+    border-collapse: collapse;
 }
 
+#projects .projects_table {
+    width: 100%;
+}
+
+#projects .projects_table th, #projects .projects_table td {
+    padding: 10px;
+}
+
+#projects .projects_table a {
+    color: #444;
+}
+
+#projects .projects_table a:hover {
+    text-decoration: underline;
+}
+
+#projects .projects_table td:first-child {
+    font-style: italic;
+}
 
 /* SKILLS */
 
